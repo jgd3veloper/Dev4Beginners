@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google-site-verification" content="FkvwsWEPkPYA-Nzc5cIC7-mwnFZfI_A3HWXXcVS_Ts8" />
+  <title>JS Quiz</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/js-icon.png">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header class="header bg-primary">
+      <div class="left-title"><a onclick="myFunction()">JS Quiz</a></div>
+      <div class="right-title">Total Questions: <span id="tque"></span></div>
+      <div class="clearfix"></div>
+    </header>
+<div class="content">
+<div class="container-fluid">
+
+	<div class="row">
+		<div class="col-sm-12">
+        	<div id="result" class="quiz-body">
+            <form name="quizForm" onSubmit="">
+            	<fieldset class="form-group">
+    			<h4><span id="qid">1.</span> <span id="question"></span></h4>
+                <div class="option-block-container" id="question-options">
+                 </div> <!-- End of option block -->
+                 </fieldset>
+                 <button  name="previous" id="previous" class="btn my-btn"><i class="fa fa-arrow-left"></i></button>
+                 &nbsp;
+                 <a class="btn my-btn" href="https://dev4beginners.com/"><i class="fa fa-th-large"></i></a>
+				 &nbsp;
+				 <button class="btn my-btn" onclick="myFunction()"><i class="fa fa-refresh"></i></button>
+				 &nbsp;
+                 <button  name="next" id="next" class="btn my-btn"><i class="fa fa-arrow-right"></i></button>
+           </form>
+           </div>
+        </div> <!-- End of col-sm-12 -->
+
+    </div> <!-- End of row -->
+</div> <!-- ENd of container fluid -->
+<!-- Hostinger Banner Ad -->
+	  <div class="hostinger-ad">
+	  <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=12466&file_id=7" target="_blank"><img src="https://media.go2speed.org/brand/files/hostinger/6/728x90.jpg" class="img-responsive" height="180" border="0" /></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=7&aff_id=12466" width="1" height="1" />
+	  <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=12466&file_id=7" target="_blank"><img src="images/web-banners/hosting-750x150-aff-global.png" class="img-responsive tablet"></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=7&aff_id=12466" width="1" height="1" />
+	  <a href="https://www.hostg.xyz/aff_c?offer_id=6&aff_id=12466&file_id=7" target="_blank"><img src="images/web-banners/hosting-450x90-aff-global.png" class="img-responsive mobile"></a><img src="https://www.hostg.xyz/aff_i?offer_id=6&file_id=7&aff_id=12466" width="1" height="1" />
+	  </div>
+</div> <!-- End of content -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S5SSWT20TB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S5SSWT20TB');
+</script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+  <script  src="js/index.js"></script>
+</body>
+</html>
